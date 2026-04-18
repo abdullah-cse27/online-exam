@@ -1,0 +1,28 @@
+# Python bytecode (compiled files)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files (agar aapne venv banaya ho)
+venv/
+env/
+.env
+
+# Streamlit temporary files
+.streamlit/
+! .streamlit/config.toml
+
+# Project specific ignores
+Data/
+*.db
+*.sqlite3
+
+# Large Model files (YOLO models ko GitHub par nahi rakhte, link dete hain)
+yolov8n.pt
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
